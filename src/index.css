@@ -1,13 +1,103 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(10, 177, 243);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  border-radius: 10px;
+  padding: 20px 15px;
+  background-color: white;
+  max-width: 400px;
+  width: 90vw;
+  text-align: center;
+}
+
+#main h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #e0808f;
+}
+
+.input {
+  display: flex;
+  justify-content: space-around;
+}
+
+.add {
+  width: 20%;
+  background-color: rgb(10, 177, 243);
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 3px;
+  border: none;
+  text-align: center;
+  padding: 3px 4px;
+}
+
+.add:hover {
+  background-color: rgb(1, 153, 255);
+  transition: all 0.5s;
+}
+
+#text {
+  width: 70%;
+  font-size: larger;
+  border: none;
+  border: 2px solid rgb(10, 177, 243);
+  border-radius: 3px;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.list {
+  width: 96%;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  transition: all 1s ease-in-out;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid rgb(167, 166, 166);
+  border-radius: 4px;
+  padding: 3px 4px;
+  background-color: rgb(105, 246, 246);
+  margin: 10px 0;
+}
+
+.list li p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  color: white;
+  margin: 0;
+  width: 80%;
+  text-align: left;
+}
+
+.list li img {
+  width: 25px;
+  margin: auto 0;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
